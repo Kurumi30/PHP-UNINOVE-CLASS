@@ -2,16 +2,16 @@
   <head>
     <title>PHP Test</title>
   </head>
+  
   <body>
-    <?php
-      $_nome = "João Antonio";
-      $nome = "Alfredo Maciel";
-      $valor = 123456;
-      $nota = 7.5;
-
-      echo $_nome;
-      $nota = 8.5;
-      echo "<br/>Nota $nota";
-    ?>
+    <h1>Banco de Dados - SQLITE - PHP</h1>
+    
+    <h2>Arquivos</h2>
+    
+    <a href='conecta.php'>conecta.php</a><br>
+    <a href='cria_tabela.php'>cria_tabela.php</a><br>
+    <a href='insere.php'>insere.php</a><br>
+    <a href='select.php'>select.php</a><br>
+    <a href='atualiza.php'>atualiza.php</a><br>
   </body>
 </html>

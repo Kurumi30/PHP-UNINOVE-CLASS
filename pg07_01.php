@@ -119,7 +119,10 @@
 
 	$tabuada = 2;
 	echo "Tabuada - $tabuada <br>";
+
 	for ($i = 0; $i <= 10; $i++) {
-		echo "$tabuada x $i = ".($tabuada * $i)."<br>";
+		$resultado = $tabuada * $i;
+		
+		echo "$tabuada x $i = $resultado<br>";
 	}
 ?>

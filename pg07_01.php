@@ -114,4 +114,12 @@
 			echo "$i $j <br>";
 		}
 	}
+
+	echo "<hr>";
+
+	$tabuada = 2;
+	echo "Tabuada - $tabuada <br>";
+	for ($i = 0; $i <= 10; $i++) {
+		echo "$tabuada x $i = ".($tabuada * $i)."<br>";
+	}
 ?>

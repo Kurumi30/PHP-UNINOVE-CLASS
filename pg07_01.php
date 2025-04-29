@@ -117,12 +117,13 @@
 
 	echo "<hr>";
 
-	$tabuada = 2;
-	echo "Tabuada - $tabuada <br>";
-
-	for ($i = 0; $i <= 10; $i++) {
-		$resultado = $tabuada * $i;
-		
-		echo "$tabuada x $i = $resultado<br>";
+	for ($tabuada = 1; $tabuada <= 10; $tabuada++) {
+		echo "Tabuada - $tabuada <br>";
+	
+		for ($i = 0; $i <= 10; $i++) {
+			$resultado = $tabuada * $i;
+			
+			echo "$tabuada x $i = $resultado<br>";
+		}
 	}
 ?>

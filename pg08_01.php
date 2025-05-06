@@ -62,6 +62,18 @@
 	for ($i = 0; $i < count($uf); $i++) {
 		echo $uf[$i]."<br>";
 	}
+
+	echo "<hr>";
+
+	$mercado = [
+		"fruta" => "caju",
+		"verdura" => "alface",
+		"bebida" => "leite"
+	];
+
+	foreach ($mercado as $pos => $valor) {
+		echo "$pos: $valor <br>";
+	}
 ?>
 
 <!-- <pre>
